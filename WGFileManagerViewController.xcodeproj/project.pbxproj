@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A70CEFBB1EDFC18400CD52E4 /* WWFileModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A70CEFBA1EDFC18400CD52E4 /* WWFileModel.m */; };
+		A70CEFBF1EDFC35300CD52E4 /* WWFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A70CEFBE1EDFC35300CD52E4 /* WWFileManager.m */; };
+		A70CEFC31EDFDCD100CD52E4 /* WWFileManagerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A70CEFC11EDFDCD100CD52E4 /* WWFileManagerTableViewCell.m */; };
+		A70CEFC41EDFDCD100CD52E4 /* WWFileManagerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A70CEFC21EDFDCD100CD52E4 /* WWFileManagerTableViewCell.xib */; };
+		A717854C1EEA4C7400C0C7A6 /* resorces in Resources */ = {isa = PBXBuildFile; fileRef = A717854B1EEA4C7400C0C7A6 /* resorces */; };
+		A7CCC6C41EDEB83700B8934F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7CCC6C31EDEB83700B8934F /* main.m */; };
+		A7CCC6C71EDEB83700B8934F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7CCC6C61EDEB83700B8934F /* AppDelegate.m */; };
+		A7CCC6CA1EDEB83700B8934F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7CCC6C91EDEB83700B8934F /* ViewController.m */; };
+		A7CCC6CD1EDEB83700B8934F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7CCC6CB1EDEB83700B8934F /* Main.storyboard */; };
+		A7CCC6CF1EDEB83700B8934F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7CCC6CE1EDEB83700B8934F /* Assets.xcassets */; };
+		A7CCC6D21EDEB83700B8934F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7CCC6D01EDEB83700B8934F /* LaunchScreen.storyboard */; };
+		A7CCC6DD1EDEB83700B8934F /* WGFileManagerViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A7CCC6DC1EDEB83700B8934F /* WGFileManagerViewControllerTests.m */; };
+		A7CCC6E81EDEB83700B8934F /* WGFileManagerViewControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A7CCC6E71EDEB83700B8934F /* WGFileManagerViewControllerUITests.m */; };
+		A7CCC6F91EDEBA3A00B8934F /* WGSelectedItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = A7CCC6F81EDEBA3A00B8934F /* WGSelectedItemView.m */; };
+		A7CDA4411EE563460046265F /* WWWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7CDA4401EE563460046265F /* WWWebViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A7CCC6D91EDEB83700B8934F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7CCC6B71EDEB83700B8934F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7CCC6BE1EDEB83700B8934F;
+			remoteInfo = WGFileManagerViewController;
+		};
+		A7CCC6E41EDEB83700B8934F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7CCC6B71EDEB83700B8934F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7CCC6BE1EDEB83700B8934F;
+			remoteInfo = WGFileManagerViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A70CEFB91EDFC18400CD52E4 /* WWFileModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWFileModel.h; sourceTree = "<group>"; };
+		A70CEFBA1EDFC18400CD52E4 /* WWFileModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWFileModel.m; sourceTree = "<group>"; };
+		A70CEFBD1EDFC35300CD52E4 /* WWFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWFileManager.h; sourceTree = "<group>"; };
+		A70CEFBE1EDFC35300CD52E4 /* WWFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWFileManager.m; sourceTree = "<group>"; };
+		A70CEFC01EDFDCD100CD52E4 /* WWFileManagerTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWFileManagerTableViewCell.h; sourceTree = "<group>"; };
+		A70CEFC11EDFDCD100CD52E4 /* WWFileManagerTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWFileManagerTableViewCell.m; sourceTree = "<group>"; };
+		A70CEFC21EDFDCD100CD52E4 /* WWFileManagerTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WWFileManagerTableViewCell.xib; sourceTree = "<group>"; };
+		A717854B1EEA4C7400C0C7A6 /* resorces */ = {isa = PBXFileReference; lastKnownFileType = folder; path = resorces; sourceTree = "<group>"; };
+		A7CCC6BF1EDEB83700B8934F /* WGFileManagerViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WGFileManagerViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7CCC6C31EDEB83700B8934F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A7CCC6C51EDEB83700B8934F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A7CCC6C61EDEB83700B8934F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A7CCC6C81EDEB83700B8934F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A7CCC6C91EDEB83700B8934F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A7CCC6CC1EDEB83700B8934F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A7CCC6CE1EDEB83700B8934F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A7CCC6D11EDEB83700B8934F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A7CCC6D31EDEB83700B8934F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7CCC6D81EDEB83700B8934F /* WGFileManagerViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WGFileManagerViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7CCC6DC1EDEB83700B8934F /* WGFileManagerViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WGFileManagerViewControllerTests.m; sourceTree = "<group>"; };
+		A7CCC6DE1EDEB83700B8934F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7CCC6E31EDEB83700B8934F /* WGFileManagerViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WGFileManagerViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7CCC6E71EDEB83700B8934F /* WGFileManagerViewControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WGFileManagerViewControllerUITests.m; sourceTree = "<group>"; };
+		A7CCC6E91EDEB83700B8934F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7CCC6F71EDEBA3A00B8934F /* WGSelectedItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGSelectedItemView.h; sourceTree = "<group>"; };
+		A7CCC6F81EDEBA3A00B8934F /* WGSelectedItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGSelectedItemView.m; sourceTree = "<group>"; };
+		A7CDA43F1EE563460046265F /* WWWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWWebViewController.h; sourceTree = "<group>"; };
+		A7CDA4401EE563460046265F /* WWWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWWebViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7CCC6BC1EDEB83700B8934F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7CCC6D51EDEB83700B8934F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7CCC6E01EDEB83700B8934F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A70CEFB81EDFC16D00CD52E4 /* WWFileModel */ = {
+			isa = PBXGroup;
+			children = (
+				A70CEFB91EDFC18400CD52E4 /* WWFileModel.h */,
+				A70CEFBA1EDFC18400CD52E4 /* WWFileModel.m */,
+			);
+			path = WWFileModel;
+			sourceTree = "<group>";
+		};
+		A70CEFBC1EDFC35300CD52E4 /* WWFileManager */ = {
+			isa = PBXGroup;
+			children = (
+				A70CEFBD1EDFC35300CD52E4 /* WWFileManager.h */,
+				A70CEFBE1EDFC35300CD52E4 /* WWFileManager.m */,
+			);
+			path = WWFileManager;
+			sourceTree = "<group>";
+		};
+		A7CCC6B61EDEB83700B8934F = {
+			isa = PBXGroup;
+			children = (
+				A7CCC6C11EDEB83700B8934F /* WGFileManagerViewController */,
+				A7CCC6DB1EDEB83700B8934F /* WGFileManagerViewControllerTests */,
+				A7CCC6E61EDEB83700B8934F /* WGFileManagerViewControllerUITests */,
+				A7CCC6C01EDEB83700B8934F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A7CCC6C01EDEB83700B8934F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7CCC6BF1EDEB83700B8934F /* WGFileManagerViewController.app */,
+				A7CCC6D81EDEB83700B8934F /* WGFileManagerViewControllerTests.xctest */,
+				A7CCC6E31EDEB83700B8934F /* WGFileManagerViewControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7CCC6C11EDEB83700B8934F /* WGFileManagerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A717854B1EEA4C7400C0C7A6 /* resorces */,
+				A7CCC6F51EDEB84A00B8934F /* WGFileManagerViewController */,
+				A7CCC6C51EDEB83700B8934F /* AppDelegate.h */,
+				A7CCC6C61EDEB83700B8934F /* AppDelegate.m */,
+				A7CCC6C81EDEB83700B8934F /* ViewController.h */,
+				A7CCC6C91EDEB83700B8934F /* ViewController.m */,
+				A7CCC6CB1EDEB83700B8934F /* Main.storyboard */,
+				A7CCC6CE1EDEB83700B8934F /* Assets.xcassets */,
+				A7CCC6D01EDEB83700B8934F /* LaunchScreen.storyboard */,
+				A7CCC6D31EDEB83700B8934F /* Info.plist */,
+				A7CCC6C21EDEB83700B8934F /* Supporting Files */,
+			);
+			path = WGFileManagerViewController;
+			sourceTree = "<group>";
+		};
+		A7CCC6C21EDEB83700B8934F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7CCC6C31EDEB83700B8934F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A7CCC6DB1EDEB83700B8934F /* WGFileManagerViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				A7CCC6DC1EDEB83700B8934F /* WGFileManagerViewControllerTests.m */,
+				A7CCC6DE1EDEB83700B8934F /* Info.plist */,
+			);
+			path = WGFileManagerViewControllerTests;
+			sourceTree = "<group>";
+		};
+		A7CCC6E61EDEB83700B8934F /* WGFileManagerViewControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A7CCC6E71EDEB83700B8934F /* WGFileManagerViewControllerUITests.m */,
+				A7CCC6E91EDEB83700B8934F /* Info.plist */,
+			);
+			path = WGFileManagerViewControllerUITests;
+			sourceTree = "<group>";
+		};
+		A7CCC6F51EDEB84A00B8934F /* WGFileManagerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A7CDA43E1EE563460046265F /* ConTrollers */,
+				A70CEFBC1EDFC35300CD52E4 /* WWFileManager */,
+				A70CEFB81EDFC16D00CD52E4 /* WWFileModel */,
+				A7CCC6F61EDEB95600B8934F /* views */,
+			);
+			path = WGFileManagerViewController;
+			sourceTree = "<group>";
+		};
+		A7CCC6F61EDEB95600B8934F /* views */ = {
+			isa = PBXGroup;
+			children = (
+				A7CCC6F71EDEBA3A00B8934F /* WGSelectedItemView.h */,
+				A7CCC6F81EDEBA3A00B8934F /* WGSelectedItemView.m */,
+				A70CEFC01EDFDCD100CD52E4 /* WWFileManagerTableViewCell.h */,
+				A70CEFC11EDFDCD100CD52E4 /* WWFileManagerTableViewCell.m */,
+				A70CEFC21EDFDCD100CD52E4 /* WWFileManagerTableViewCell.xib */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		A7CDA43E1EE563460046265F /* ConTrollers */ = {
+			isa = PBXGroup;
+			children = (
+				A7CDA43F1EE563460046265F /* WWWebViewController.h */,
+				A7CDA4401EE563460046265F /* WWWebViewController.m */,
+			);
+			path = ConTrollers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7CCC6BE1EDEB83700B8934F /* WGFileManagerViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7CCC6EC1EDEB83700B8934F /* Build configuration list for PBXNativeTarget "WGFileManagerViewController" */;
+			buildPhases = (
+				A7CCC6BB1EDEB83700B8934F /* Sources */,
+				A7CCC6BC1EDEB83700B8934F /* Frameworks */,
+				A7CCC6BD1EDEB83700B8934F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WGFileManagerViewController;
+			productName = WGFileManagerViewController;
+			productReference = A7CCC6BF1EDEB83700B8934F /* WGFileManagerViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A7CCC6D71EDEB83700B8934F /* WGFileManagerViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7CCC6EF1EDEB83700B8934F /* Build configuration list for PBXNativeTarget "WGFileManagerViewControllerTests" */;
+			buildPhases = (
+				A7CCC6D41EDEB83700B8934F /* Sources */,
+				A7CCC6D51EDEB83700B8934F /* Frameworks */,
+				A7CCC6D61EDEB83700B8934F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7CCC6DA1EDEB83700B8934F /* PBXTargetDependency */,
+			);
+			name = WGFileManagerViewControllerTests;
+			productName = WGFileManagerViewControllerTests;
+			productReference = A7CCC6D81EDEB83700B8934F /* WGFileManagerViewControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A7CCC6E21EDEB83700B8934F /* WGFileManagerViewControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7CCC6F21EDEB83700B8934F /* Build configuration list for PBXNativeTarget "WGFileManagerViewControllerUITests" */;
+			buildPhases = (
+				A7CCC6DF1EDEB83700B8934F /* Sources */,
+				A7CCC6E01EDEB83700B8934F /* Frameworks */,
+				A7CCC6E11EDEB83700B8934F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7CCC6E51EDEB83700B8934F /* PBXTargetDependency */,
+			);
+			name = WGFileManagerViewControllerUITests;
+			productName = WGFileManagerViewControllerUITests;
+			productReference = A7CCC6E31EDEB83700B8934F /* WGFileManagerViewControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7CCC6B71EDEB83700B8934F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = guoyutao;
+				TargetAttributes = {
+					A7CCC6BE1EDEB83700B8934F = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = FV4HP27BYD;
+						ProvisioningStyle = Automatic;
+					};
+					A7CCC6D71EDEB83700B8934F = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = FV4HP27BYD;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A7CCC6BE1EDEB83700B8934F;
+					};
+					A7CCC6E21EDEB83700B8934F = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = FV4HP27BYD;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A7CCC6BE1EDEB83700B8934F;
+					};
+				};
+			};
+			buildConfigurationList = A7CCC6BA1EDEB83700B8934F /* Build configuration list for PBXProject "WGFileManagerViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A7CCC6B61EDEB83700B8934F;
+			productRefGroup = A7CCC6C01EDEB83700B8934F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7CCC6BE1EDEB83700B8934F /* WGFileManagerViewController */,
+				A7CCC6D71EDEB83700B8934F /* WGFileManagerViewControllerTests */,
+				A7CCC6E21EDEB83700B8934F /* WGFileManagerViewControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7CCC6BD1EDEB83700B8934F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7CCC6D21EDEB83700B8934F /* LaunchScreen.storyboard in Resources */,
+				A7CCC6CF1EDEB83700B8934F /* Assets.xcassets in Resources */,
+				A7CCC6CD1EDEB83700B8934F /* Main.storyboard in Resources */,
+				A717854C1EEA4C7400C0C7A6 /* resorces in Resources */,
+				A70CEFC41EDFDCD100CD52E4 /* WWFileManagerTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7CCC6D61EDEB83700B8934F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7CCC6E11EDEB83700B8934F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7CCC6BB1EDEB83700B8934F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7CCC6F91EDEBA3A00B8934F /* WGSelectedItemView.m in Sources */,
+				A7CCC6CA1EDEB83700B8934F /* ViewController.m in Sources */,
+				A70CEFBB1EDFC18400CD52E4 /* WWFileModel.m in Sources */,
+				A7CDA4411EE563460046265F /* WWWebViewController.m in Sources */,
+				A70CEFBF1EDFC35300CD52E4 /* WWFileManager.m in Sources */,
+				A7CCC6C71EDEB83700B8934F /* AppDelegate.m in Sources */,
+				A70CEFC31EDFDCD100CD52E4 /* WWFileManagerTableViewCell.m in Sources */,
+				A7CCC6C41EDEB83700B8934F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7CCC6D41EDEB83700B8934F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7CCC6DD1EDEB83700B8934F /* WGFileManagerViewControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7CCC6DF1EDEB83700B8934F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7CCC6E81EDEB83700B8934F /* WGFileManagerViewControllerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A7CCC6DA1EDEB83700B8934F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7CCC6BE1EDEB83700B8934F /* WGFileManagerViewController */;
+			targetProxy = A7CCC6D91EDEB83700B8934F /* PBXContainerItemProxy */;
+		};
+		A7CCC6E51EDEB83700B8934F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7CCC6BE1EDEB83700B8934F /* WGFileManagerViewController */;
+			targetProxy = A7CCC6E41EDEB83700B8934F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A7CCC6CB1EDEB83700B8934F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7CCC6CC1EDEB83700B8934F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A7CCC6D01EDEB83700B8934F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7CCC6D11EDEB83700B8934F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A7CCC6EA1EDEB83700B8934F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A7CCC6EB1EDEB83700B8934F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A7CCC6ED1EDEB83700B8934F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FV4HP27BYD;
+				INFOPLIST_FILE = WGFileManagerViewController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WG.WGFileManagerViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A7CCC6EE1EDEB83700B8934F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FV4HP27BYD;
+				INFOPLIST_FILE = WGFileManagerViewController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WG.WGFileManagerViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A7CCC6F01EDEB83700B8934F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = FV4HP27BYD;
+				INFOPLIST_FILE = WGFileManagerViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WG.WGFileManagerViewControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WGFileManagerViewController.app/WGFileManagerViewController";
+			};
+			name = Debug;
+		};
+		A7CCC6F11EDEB83700B8934F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = FV4HP27BYD;
+				INFOPLIST_FILE = WGFileManagerViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WG.WGFileManagerViewControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WGFileManagerViewController.app/WGFileManagerViewController";
+			};
+			name = Release;
+		};
+		A7CCC6F31EDEB83700B8934F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = FV4HP27BYD;
+				INFOPLIST_FILE = WGFileManagerViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WG.WGFileManagerViewControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WGFileManagerViewController;
+			};
+			name = Debug;
+		};
+		A7CCC6F41EDEB83700B8934F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = FV4HP27BYD;
+				INFOPLIST_FILE = WGFileManagerViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WG.WGFileManagerViewControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WGFileManagerViewController;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7CCC6BA1EDEB83700B8934F /* Build configuration list for PBXProject "WGFileManagerViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7CCC6EA1EDEB83700B8934F /* Debug */,
+				A7CCC6EB1EDEB83700B8934F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7CCC6EC1EDEB83700B8934F /* Build configuration list for PBXNativeTarget "WGFileManagerViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7CCC6ED1EDEB83700B8934F /* Debug */,
+				A7CCC6EE1EDEB83700B8934F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7CCC6EF1EDEB83700B8934F /* Build configuration list for PBXNativeTarget "WGFileManagerViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7CCC6F01EDEB83700B8934F /* Debug */,
+				A7CCC6F11EDEB83700B8934F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7CCC6F21EDEB83700B8934F /* Build configuration list for PBXNativeTarget "WGFileManagerViewControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7CCC6F31EDEB83700B8934F /* Debug */,
+				A7CCC6F41EDEB83700B8934F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A7CCC6B71EDEB83700B8934F /* Project object */;
+}

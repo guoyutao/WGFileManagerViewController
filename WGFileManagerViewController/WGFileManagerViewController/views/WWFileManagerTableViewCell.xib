@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="WWFileManagerTableViewCell" id="KGk-i7-Jjw" customClass="WWFileManagerTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="49.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="YnX-dj-Lbl">
+                        <rect key="frame" x="8" y="5" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="40" id="h9o-93-Rwr"/>
+                            <constraint firstAttribute="height" constant="40" id="zcu-Cb-zpI"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="COa-CF-i7a">
+                        <rect key="frame" x="56" y="14.5" width="256" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="qvB-m1-Khb"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="COa-CF-i7a" secondAttribute="trailing" constant="8" id="CYc-An-DTD"/>
+                    <constraint firstItem="COa-CF-i7a" firstAttribute="leading" secondItem="YnX-dj-Lbl" secondAttribute="trailing" constant="8" id="FXn-ii-VGK"/>
+                    <constraint firstItem="YnX-dj-Lbl" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="Jgu-YG-DVq"/>
+                    <constraint firstItem="YnX-dj-Lbl" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="s4f-Zx-1VX"/>
+                    <constraint firstItem="COa-CF-i7a" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="yzq-ja-Hl0"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="iconImageView" destination="YnX-dj-Lbl" id="Ch5-hX-N1e"/>
+                <outlet property="titleLabel" destination="COa-CF-i7a" id="BZe-ho-oVo"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>
