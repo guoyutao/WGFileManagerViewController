@@ -12,6 +12,7 @@
 		A70CEFC31EDFDCD100CD52E4 /* WWFileManagerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A70CEFC11EDFDCD100CD52E4 /* WWFileManagerTableViewCell.m */; };
 		A70CEFC41EDFDCD100CD52E4 /* WWFileManagerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A70CEFC21EDFDCD100CD52E4 /* WWFileManagerTableViewCell.xib */; };
 		A717854C1EEA4C7400C0C7A6 /* resorces in Resources */ = {isa = PBXBuildFile; fileRef = A717854B1EEA4C7400C0C7A6 /* resorces */; };
+		A74B82791EEFB403007F10BB /* WGFileManagerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A74B82781EEFB403007F10BB /* WGFileManagerViewController.m */; };
 		A7CCC6C41EDEB83700B8934F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7CCC6C31EDEB83700B8934F /* main.m */; };
 		A7CCC6C71EDEB83700B8934F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7CCC6C61EDEB83700B8934F /* AppDelegate.m */; };
 		A7CCC6CA1EDEB83700B8934F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7CCC6C91EDEB83700B8934F /* ViewController.m */; };
@@ -50,6 +51,8 @@
 		A70CEFC11EDFDCD100CD52E4 /* WWFileManagerTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWFileManagerTableViewCell.m; sourceTree = "<group>"; };
 		A70CEFC21EDFDCD100CD52E4 /* WWFileManagerTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WWFileManagerTableViewCell.xib; sourceTree = "<group>"; };
 		A717854B1EEA4C7400C0C7A6 /* resorces */ = {isa = PBXFileReference; lastKnownFileType = folder; path = resorces; sourceTree = "<group>"; };
+		A74B82771EEFB403007F10BB /* WGFileManagerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGFileManagerViewController.h; sourceTree = "<group>"; };
+		A74B82781EEFB403007F10BB /* WGFileManagerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGFileManagerViewController.m; sourceTree = "<group>"; };
 		A7CCC6BF1EDEB83700B8934F /* WGFileManagerViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WGFileManagerViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7CCC6C31EDEB83700B8934F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A7CCC6C51EDEB83700B8934F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -207,6 +210,8 @@
 			children = (
 				A7CDA43F1EE563460046265F /* WWWebViewController.h */,
 				A7CDA4401EE563460046265F /* WWWebViewController.m */,
+				A74B82771EEFB403007F10BB /* WGFileManagerViewController.h */,
+				A74B82781EEFB403007F10BB /* WGFileManagerViewController.m */,
 			);
 			path = ConTrollers;
 			sourceTree = "<group>";
@@ -352,6 +357,7 @@
 				A7CCC6F91EDEBA3A00B8934F /* WGSelectedItemView.m in Sources */,
 				A7CCC6CA1EDEB83700B8934F /* ViewController.m in Sources */,
 				A70CEFBB1EDFC18400CD52E4 /* WWFileModel.m in Sources */,
+				A74B82791EEFB403007F10BB /* WGFileManagerViewController.m in Sources */,
 				A7CDA4411EE563460046265F /* WWWebViewController.m in Sources */,
 				A70CEFBF1EDFC35300CD52E4 /* WWFileManager.m in Sources */,
 				A7CCC6C71EDEB83700B8934F /* AppDelegate.m in Sources */,

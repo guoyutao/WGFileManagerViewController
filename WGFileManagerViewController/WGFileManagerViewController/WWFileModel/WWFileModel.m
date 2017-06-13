@@ -16,8 +16,8 @@
         self.fileAllPath = filePath;
         self.filePathExtension = [filePath pathExtension];
         self.fileLastPathComponent = [filePath lastPathComponent];
-        self.fileDate = [WWFileManager getFileCreatDate:[NSURL URLWithString:filePath]];
-        self.fileSize = [WWFileManager getFileSize:[NSURL URLWithString:filePath]];
+        self.fileDate = [WWFileManager getFileCreatDate:[NSURL fileURLWithPath:filePath]];
+        self.fileSize = [WWFileManager getFileSize:[NSURL fileURLWithPath:filePath]];
     }
     return self;
 }
